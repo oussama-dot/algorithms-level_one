@@ -1,7 +1,6 @@
-age_input = int(input("please enter your age "))
-
-while age_input < 17 or  age_input > 45:
-    age_input = int(input("please enter your age "))
-else : 
-    print("you have the rigth to access ")
-     
+user_input = int(input('enter ur number here'))
+sum = 0
+for i in range(user_input):
+    if i % 2 == 1:
+        sum = sum + i
+print(sum)
